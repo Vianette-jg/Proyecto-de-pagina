@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <h1>Pastelería Dulce Sabor</h1>
+        <nav>
+            <a href="Pasteleria.html">Inicio</a>
+            <a href="Acerca de Nosotros.html">Acerca de Nosotros</a>
+            <a href="Productos.html">Productos</a>
+            <a href="Servicios.html">Servicios</a>
+            <a href="Contacto.html">Contacto</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contacto</h2>
+        <p>Puedes comunicarte con nosotros a través de los siguientes medios:</p>
+        <ul>
+            <li><strong>Teléfono:</strong> 55-1234-5678</li>
+            <li><strong>Email:</strong> contacto@dulcesabor.com</li>
+            <li><strong>Dirección:</strong> Calle Dulce, No. 123, Ciudad Pastel</li>
+        </ul>
+        <img src="ubicacion3.jpg">
+
+        <h3>Encargar un producto</h3>
+        <form action="procesar_pedido.html" method="post">
+            <!-- Campo de nombre completo -->
+            <label for="nombre">Nombre completo:</label><br>
+            <input type="text" id="nombre" name="nombre" required ><br>
+
+            <!-- Campo de numero de telefono-->
+            <label for="numero">Numero de telefono:</label><br>
+            <input type="text" id="numero" name="numero" required ><br>
+
+            <!-- Campo de correo electrónico -->
+            <label for="correo">Correo electrónico:</label><br>
+            <input type="email" id="correo" name="correo" required ><br>
+
+                <br><!--Salto de linea-->
+
+
+            <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+        </form>
+    </main>
+</body>
+</html>
